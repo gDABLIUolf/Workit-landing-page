@@ -6,21 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./img/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <!--   <link rel="stylesheet" href="style.css">-->
+  <link rel="stylesheet" href="grid.css">
   <title>Frontend Mentor | Workit landing page</title>
 </head>
 
 <body>
-  <header>
-    <div id="logo1">
-      <img src="./img/images/logo-light.svg" alt="logo Workit">
-    </div>
+  <header class="grid-container-1">
+    <ul id="div-nav" class="col-12">
+      <li><a href=""><img src="./img/images/logo-light.svg" alt="logo Workit" id="logo-1"></a></li>
+      <li><a href="" id="link-right">
+          <p class="apply"><ins>Apply for access</ins></p>
+        </a></li>
+    </ul>
 
-    <a href="" id="link-right">
-      <p class="white"><ins>Apply for access</ins></p>
-    </a>
-    <h1>Data <ins>tailored</ins> to your needs.</h1>
-    <a href="" class="button">
+    <h1 class="col-12">Data <ins>tailored</ins> to your needs.</h1>
+    <a href="" class="learn-more">
       <p>Learn more</p>
     </a>
     <img src="./img/images/bg-pattern-1.svg" class="espiral">
@@ -28,9 +29,9 @@
     <img src="./img/images/image-hero.webp" alt="imagem de um smartphone" id="image-hero">
   </header>
 
-  <main>
+  <main class="col-12">
 
-    <div>
+    <div class="col-3">
       <h3 class="number">1</h3>
       <h2 class="title">Actionable insights</h2>
 
@@ -38,7 +39,7 @@
         with our product data analytics.</p>
 
     </div>
-    <div>
+    <div class="col-3">
       <h3 class="number">2</h3>
 
       <h2 class="title">Data-driven decisions</h2>
@@ -47,7 +48,7 @@
         you unlock insights hidden in your product data.</p>
     </div>
 
-    <div>
+    <div class="col-3">
       <h3 class="number">3</h3>
       <h2 class="title">Always affordable</h2>
       <p class="descricao">Always affordable pricing that scales with your business. Get top-quality product data
@@ -57,7 +58,7 @@
   </main>
 
   <section>
-    <img src="./img/images/image-founder.webp" alt="foto de Louis Graham" id="foto">
+    <img class="col-12" src="./img/images/image-founder.webp" alt="foto de Louis Graham" id="foto">
     <div class="div-sec">
 
       <h2> Be the first to test</h2>
@@ -67,7 +68,7 @@
         in touch to schedule a call.
       </p>
       <img src="./img/images/bg-pattern-3.svg" class="espiral">
-      <a href="" class="button">
+      <a href="" class="learn-more">
         <p>Apply for access</p>
       </a>
     </div>
