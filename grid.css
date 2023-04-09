@@ -356,4 +356,78 @@ footer {
     padding-bottom: 10%;
     overflow: hidden;
   }
+
+  #foto {
+    margin: auto;
+    width: 40%;
+  }
+
+  .number-title-descricao {
+    text-align: left;
+    margin: 10% 10%;
+    margin-top: 0;
+  }
+
+  .number-div {
+    padding: 0;
+    padding-top: 2%;
+  }
+
+  .number {
+    border: 1px solid #24053e;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    line-height: 32px;
+    border-radius: 50%;
+    padding-left: 16%;
+    padding-top: 8%;
+  }
+
+  main h2 {
+    margin: 0;
+    padding: 0 3%;
+  }
+
+  section {
+    padding: 5%;
+    padding-bottom: 0;
+  }
+
+  .div-sec h2 {
+    font-family: 'Fraunces 144pt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .div-sec {
+    text-align: left;
+  }
+
+
+  .div-sec {
+    float: right;
+    transform: translateY(-130px);
+    background-color: #24053e;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 2% 10% 0 10%;
+    text-align: left;
+  }
+
+  .learn-more-2 {
+    margin: 10% 0;
+  }
+
+  #espiral-3 {
+    z-index: 10;
+    position: relative;
+  }
+
 }
