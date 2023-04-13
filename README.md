@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repository](https://github.com/gDABLIUolf/workit-landing-page.git)
-- Live Site URL: [site URL](https://app.netlify.com/sites/willowy-baklava-f18268/overview)
+- Live Site URL: [site URL](https://willowy-baklava-f18268.netlify.app)
 
 ## My process
 
