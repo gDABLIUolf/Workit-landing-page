@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope&display=swap');
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -60,7 +60,7 @@ h1 {
   padding-top: 0;
   margin-top: 0;
   text-align: center;
-  font-family: 'Fraunces 144pt';
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -141,7 +141,7 @@ main {
 
 h2,
 h3 {
-  font-family: 'Fraunces 144pt';
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 600;
   color: #24053e;
@@ -364,7 +364,7 @@ footer {
   }
 
   .div-sec h2 {
-    font-family: 'Fraunces 144pt';
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -395,7 +395,7 @@ footer {
   }
 
   #espiral-3 {
-transform: translate(110%, -116%);
+    transform: translate(110%, -116%);
   }
 
   #image-hero {
@@ -475,12 +475,12 @@ transform: translate(110%, -116%);
   }
 
   h1 {
-    font-family: 'Fraunces 144pt';
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 80px;
     line-height: 80px;
-    padding: 0 25% 5% 25%;
+    padding: 0 15% 5% 15%;
   }
 
   .learn-more {
